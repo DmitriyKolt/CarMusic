@@ -258,7 +258,7 @@ h2 {
 
 .slider-box {
     display: flex;
-    overflow-x: auto;
+    overflow-x: hidden;
     gap: 25px;
     scroll-behavior: smooth;
     width: 1296px;
