@@ -31,7 +31,11 @@
 @media screen and (max-width: 1100px) {
     .buttons-slider {
         gap: 0;
-        margin-top: 400px;
+        margin-top: 500px;
+    }
+
+    .slider {
+        margin-bottom: 300px;
     }
 }
 
@@ -217,14 +221,15 @@
 
 @media screen and (max-width: 440px) {
     
-
+/*
     .slider-box {
         transform: scale(0.7);
         width: 100%;
-    }
+    }*/
 
     .slider p {
-        padding: 20px 10px;
+        padding: 20px 22px;
+        left:0
     }
 }
 
