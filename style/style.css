@@ -1,0 +1,696 @@
+@font-face {
+	font-family: 'ReformaGroteskBoldC'; 
+	src: local('ReformaGroteskBoldC'),
+		url(../Reformagroteskboldc.otf); 
+}
+
+@font-face {
+	font-family: 'ReformaGroteskDemiC'; 
+	src: local('ReformaGroteskDemiC'),
+		url(../Reformagroteskdemic.otf); 
+}
+
+@font-face {
+	font-family: 'ReformaGroteskMediumC'; 
+	src: local('ReformaGroteskMediumC'),
+		url(../Reformagroteskmediumc.otf); 
+}
+
+/*html, body {
+    /*overflow-x: hidden;
+  }*/
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background: #1E1E1E;
+}
+
+header {
+    background: url("../pic/back.png") ;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+}
+
+header a{
+    text-decoration: none;
+    font-family: 'ReformaGroteskBoldC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
+
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 150px;
+    line-height: 125%;
+    color: #DB3138;
+    margin-top: 168px;
+    margin-bottom: 61px;
+    font-family: 'ReformaGroteskBoldC';
+}
+
+.header-box {
+    text-align: center;
+}
+
+.header-box p {
+    width: 750px;
+    color: white;
+    margin: 40px auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+    font-family: 'ReformaGroteskBoldC';
+}
+
+.header-box button {
+    padding: 15px 25px;
+    background-color: #DB3138;
+    border: none;
+    color: white;
+    margin-bottom: 103px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-family: 'ReformaGroteskBoldC';
+}
+
+.header-info {
+    display: flex;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: none;
+}
+
+.menu-btn {
+    background: url("../pic/logo.png");
+    width: 50px;
+    height: 25px;
+    border: none;
+}
+
+.header-info-box {
+    color: white;
+    border-right: solid;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: #898989;
+    border-width: 1px;
+    flex-basis: 640px;
+}
+
+.inf{
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'ReformaGroteskBoldC';
+}
+
+.inf-dop {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #DB3138;
+    font-family: 'ReformaGroteskBoldC';
+}
+
+.inf-dop p {
+text-align: center;
+}
+
+h2 {
+    font-family: 'ReformaGroteskDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 0;
+}
+
+.services h2 {
+    text-align: center;
+}
+
+.achievements-box {
+    width: 636px;
+}
+
+.achievements-box p {
+    font-family: 'ReformaGroteskMediumC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-top: 43px;
+    width: 526px;
+}
+
+.card {
+    width: 318px;
+    border: 1px solid #898989;
+}
+
+.card h4{
+    font-family: 'ReformaGroteskDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #DB3138;
+    margin-top: 25px;
+}
+
+.card p {
+    font-family: 'ReformaGroteskDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 279px;
+    padding-left: 16px;
+    margin-bottom: 34px;
+}
+
+.card img {
+    padding-left: 140px;
+    margin-top: 30px;
+}
+
+.card-box-2 {
+    margin-top: 40px;
+}
+
+.card-box-1 {
+    margin-bottom: 40px;
+}
+
+.card-box {
+    display: flex;
+    width: 636px;
+}
+
+.card-box span {
+    font-size: 50px;
+}
+
+.achievements {
+    display: flex;
+    max-width: 1920px;
+    margin: 180px auto;
+    justify-content: center;
+}
+
+.slider {
+    display: none;
+}
+
+
+h3 {
+    font-family: 'ReformaGroteskDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: inline-block;
+    padding-left: 30px;
+
+    margin: 0;
+}
+
+.characteristics {
+    font-family: 'ReformaGroteskMediumC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    gap: 134px;
+}
+
+.dots{
+    margin: 40px 0;
+}
+
+.characteristics-box {
+    width: 526px;
+}
+
+.btn-prev {
+    width: 71px;
+    height: 71px;
+    background-color: #1E1E1E;
+    border: none;
+    background-image: url("../pic/left.png");
+}
+
+.btn-next {
+    width: 71px;
+    height: 71px;
+    background-color: #1E1E1E;
+    border: none;
+    background-image: url("../pic/right.png");
+}
+
+.char-prev-btn {
+    width: 71px;
+    height: 71px;
+    background-color: #1E1E1E;
+    border: none;
+    background-image: url("../pic/left.png");
+}
+
+.char-next-btn {
+    width: 71px;
+    height: 71px;
+    background-color: #1E1E1E;
+    border: none;
+    background-image: url("../pic/right.png");
+}
+
+.char-prev-btn2 {
+    width: 71px;
+    height: 71px;
+    background-color: #1E1E1E;
+    border: none;
+    background-image: url("../pic/left.png");
+}
+
+.char-next-btn2 {
+    width: 71px;
+    height: 71px;
+    background-color: #1E1E1E;
+    border: none;
+    background-image: url("../pic/right.png");
+}
+
+.char-buttons p {
+    font-family: 'ReformaGroteskDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 422px;
+}
+
+.char-buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.char-slide {
+    z-index: 100;
+}
+
+.char-hidden {
+    display: none;
+}
+
+.vizible {
+    z-index: 100;
+}
+
+
+.slide {
+    display: block;
+	max-width: 100%;
+    position:absolute;
+}
+
+
+h5 {
+    font-family: 'ReformaGroteskDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.tabs-item-wrapper p {
+    width: 226px;
+    font-family: 'ReformaGroteskDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-left: 43px;
+}
+
+.tabs-item-wrapper {
+    display: flex;
+    gap: 24px;
+}
+
+
+.tabs-item-card img {
+    padding-left: 117px;
+    padding-top: 80px;
+    height: 71px;
+    width: 70px;
+    object-fit: contain;
+}
+
+
+.tabs-item-card {
+    width: 306px;
+    border: solid 1px #898989;
+}
+
+.tabs-item-card button {
+    font-family: 'ReformaGroteskDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    background-color: #DB3138;
+    border: none;
+    margin: 0 0 56px 100px;
+}
+
+.tabs {
+    width: 450px;
+    display: flex;
+    gap: 100px;
+    margin: 0 auto 80px;
+    justify-content: space-around;
+}
+
+.tabs-trig {
+    font-family: 'ReformaGroteskDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 140%;
+    width: 209px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.tabs-wrapper {
+    margin-top: 61px;
+}
+
+.services {
+    width: 1296px;
+    margin: 180px auto;
+}
+
+
+#dots {
+    display: table;
+    margin: 0 auto;
+}
+
+.hidden {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.tabs-trig.active {
+    background-color: #DB3138;
+}
+
+.tabs-trig {
+    font-family: 'ReformaGroteskDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    padding: 20px 40px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #1E1E1E;
+    border: none;
+}
+
+
+.projects {
+    max-width: 1920px;
+    margin: 180px auto;
+}
+
+.projects-box1 {
+    text-align: center;
+    margin: 0 auto 15px;
+    width: 636px;
+}
+
+.projects-box img {
+    margin: 0;
+    width: 16.666667%;
+}
+
+.projects-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+.questions {
+    margin-bottom: 100px;
+}
+
+.questions-box {
+    width: 636px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.questions-box1 {
+    display: flex;
+    gap: 24px;
+    width: 636px;
+    margin: 0 auto;
+}
+
+
+
+.questions-box1 input {
+    background: transparent;
+    padding: 15px 168px 10px 25px;
+    border: 1px solid #898989;
+    font-family: 'ReformaGroteskDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #898989;
+    margin-top: 60px;
+}
+
+.questions-box2 input{
+    font-family: 'ReformaGroteskDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #898989;
+    background: transparent;
+    padding: 15px 388px 113px 25px;
+    border: 1px solid #898989;
+}
+
+.questions-box2 {
+    margin: 0;
+    display: flex;
+    gap: 70px;
+    width: 636px;
+    margin: 24px auto;
+}
+
+.questions-box2 a {
+    padding: 10px 10px 5px;
+    border: 1px solid #898989;
+}
+
+.social {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.questions-box3 {
+    display: flex;
+    gap: 191px;
+    width: 690px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.questions-box3 button {
+    font-family: 'ReformaGroteskDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 15px 25px;
+    background-color: #DB3138;
+    border: none;
+}
+
+.con {
+    display: flex;
+    gap: 10px;
+    font-family: 'ReformaGroteskDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.con p {
+    margin: 0;
+}
+
+.number-email {
+    display: flex;
+    gap: 30px;
+    text-align: right;
+    width: 280px;
+    float: right;
+    margin-top: 13px;
+}
+
+.questions-box3-wrapper {
+    width: 300px;
+}
+
+footer {
+    display: flex;
+    gap: 187px;
+    border-top: 1px solid #898989;
+    justify-content: center;
+}
+
+footer ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin: 30px 0;
+}
+
+footer p {
+    font-family: 'ReformaGroteskDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.5;
+    margin: 30px 0;
+}
+
+footer a {
+    font-family: 'ReformaGroteskMediumC';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
