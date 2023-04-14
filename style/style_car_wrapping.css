@@ -529,7 +529,11 @@ footer a {
     text-decoration: none;
 }
 
+.questions-box1 input:focus,.questions-box2 input:focus,.questions-box3 input:focus {
+    border: 1px solid #DB3138;
+}
 
+input {outline:none;}
 
 
 

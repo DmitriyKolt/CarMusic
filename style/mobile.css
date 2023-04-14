@@ -21,7 +21,18 @@
         /* max-width: 1920px; */
     }
 
+    .slider-box {
+        width: 860px;
+    }
 
+
+}
+
+@media screen and (max-width: 1100px) {
+    .buttons-slider {
+        gap: 0;
+        margin-top: 400px;
+    }
 }
 
 @media screen and (max-width: 820px) {
@@ -83,7 +94,9 @@
     }
 
 
-
+    .slider-box {
+        width: 416px;
+    }
     
 /*
     .slider-buttons {
@@ -200,6 +213,19 @@
         width: 300px;
     }
     
+}
+
+@media screen and (max-width: 440px) {
+    
+
+    .slider-box {
+        transform: scale(0.7);
+        width: 100%;
+    }
+
+    .slider p {
+        padding: 20px 10px;
+    }
 }
 
 @media screen and (max-width: 390px) {

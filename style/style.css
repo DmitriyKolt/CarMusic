@@ -244,15 +244,92 @@ h2 {
     font-size: 50px;
 }
 
+.slider-card {
+    position: relative;
+    width: 416px;
+    height: 450px;
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 180px;
+}
+
+.slider-box {
+    display: flex;
+    overflow-x: auto;
+    gap: 25px;
+    scroll-behavior: smooth;
+    width: 1296px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.slider-box::-webkit-scrollbar {
+    display: none;
+}
+
+.slider p {
+    font-family: 'ReformaGroteskDemiC';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 286px;
+    padding: 30px 40px;
+    background-color: #DB3138;
+    position: absolute;
+    top: 65%;
+    left: 27px
+}
+/*
+.slider-prev-btn,.slider-next-btn {
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 9;
+    margin-top: 150px;
+}*/
+.buttons-slider {
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 90;
+    top: 0;
+    width: 100%;
+    gap: 900px;
+    margin: 150px auto 0;
+}
+
+.slider-section {
+    position: relative;
+}
+
+.slider-prev-btn {
+    background-color: transparent;
+    border: none;
+    
+}
+
+.slider-next-btn {
+    background-color: transparent;
+    border: none;
+    
+}
+
 .achievements {
     display: flex;
     max-width: 1920px;
     margin: 180px auto;
     justify-content: center;
-}
-
-.slider {
-    display: none;
 }
 
 
@@ -361,11 +438,12 @@ h3 {
 }
 
 .char-slide {
-    z-index: 100;
+    z-index: 2;
 }
 
 .char-hidden {
     display: none;
+    z-index: 1;
 }
 
 .vizible {
@@ -536,6 +614,7 @@ h5 {
     text-align: center;
 }
 
+input {outline:none;}
 
 .questions-box1 {
     display: flex;
@@ -544,7 +623,9 @@ h5 {
     margin: 0 auto;
 }
 
-
+.questions-box1 input:focus,.questions-box2 input:focus,.questions-box3 input:focus {
+    border: 1px solid #DB3138;
+}
 
 .questions-box1 input {
     background: transparent;
