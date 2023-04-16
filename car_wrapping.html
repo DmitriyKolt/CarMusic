@@ -10,6 +10,7 @@
     <script src="script/sliding.js" defer></script>
     <script src="script/menu.js" defer></script>
     <script src="script/smooth-scrool.js" defer></script>
+    <script src="script/modal.js" defer></script>
 </head>
 <body>
     <header>
@@ -228,7 +229,7 @@
             </div>
     
             <div class="questions-box3">
-                <button>отправить</button>
+                <button id="openModal">отправить</button>
 
                 <div class="questions-box3-wrapper">
                     <div class="con">
@@ -255,6 +256,15 @@
         
         
 
+    </div>
+
+    <div class="myModal">
+        <div class="modal">
+            <button id="closeModal"><img src="pic/close.png" alt="закрыть" width="30" height="30"></button>
+            <h2>Вопрос отправлен на обработку</h2>
+            <h3>Наши менеджеры ответят на ваш вопрос в течение 24-х часов</h3><br>
+            <img src="pic/help.png" alt="jr" width="100" height="100">
+        </div>
     </div>
 
     <footer>

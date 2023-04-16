@@ -58,8 +58,8 @@
         list-style: none;
         background-color: #1E1E1E;
         border-radius: 10px;
-        padding: 40px 20px 40px 40px;
-        right: 3;
+        padding: 40px 15px 40px 40px;
+        left: 0;
     }
     
     .menu-hidden {
@@ -167,10 +167,15 @@
         width: 100%;
     }
 
+    .questions-box1 input {
+        margin-left: 10px;
+    }
+
     .questions-box2 input {
         padding: 15px 0 113px 25px;
         width: 80%;
         margin-bottom: 10px;
+        margin-left: 10px;
     }
 
     .social {
@@ -217,6 +222,17 @@
         width: 300px;
     }
     
+}
+
+@media screen and (max-width: 540px) {
+    .modal {
+        height: auto;
+    }
+    
+    .modal h3 {
+        width: 100%;
+        padding: 0;
+    }
 }
 
 @media screen and (max-width: 440px) {
