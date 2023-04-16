@@ -1,0 +1,272 @@
+@media screen and (max-width: 1314px) {
+    .achievements {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .characteristics {
+        flex-wrap: wrap;
+    }
+
+    .services {
+        width: 100%;
+        margin: 180px auto;
+    }
+
+    .tabs-item-wrapper {
+        display: flex;
+        gap: 24px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        /* max-width: 1920px; */
+    }
+
+    .slider-box {
+        width: 860px;
+    }
+
+
+}
+
+@media screen and (max-width: 1100px) {
+    .buttons-slider {
+        gap: 0;
+        margin-top: 500px;
+    }
+
+    .slider {
+        margin-bottom: 300px;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .menu {
+        display: flex;
+        position: absolute;
+    }
+
+    .characteristics {
+        flex-direction: column;
+    }
+    
+    .menu ul {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 40px;
+        flex-direction: column;
+        position: absolute;
+        list-style: none;
+        background-color: #1E1E1E;
+        border-radius: 10px;
+        padding: 40px 15px 40px 40px;
+        left: 0;
+    }
+    
+    .menu-hidden {
+        display: none;
+    }
+    
+    nav ul {
+        display: none;
+    }
+
+    .header-box p {
+        width: 100%;
+    }
+
+    .achievements-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .achievements-box p {
+        width: 100%;
+    }
+
+    .card-box {
+        transform: scale(0.58);
+    }
+
+    .characteristics-box {
+        text-align: center;
+        width: 100%;
+    }
+
+    .dots {
+        margin: 80px auto;
+        display: block;
+    }
+
+
+    .slider-box {
+        width: 416px;
+    }
+    
+/*
+    .slider-buttons {
+    display: flex;
+    text-align: center;
+    gap: 33px;
+    justify-content: center;
+    transform: scale(0.7);
+    }
+
+    .services-box {
+        width: 100%;
+        display: flex;
+        text-align: center;
+    }
+*/
+
+
+    
+    .tabs {
+        width: 100%;
+        display: block;
+        margin: 0 auto 80px;
+        justify-content: space-around;
+    }
+
+
+    .services h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    #dots {
+        margin: 0 auto;
+    }
+
+    
+    .services { 
+    width: 100%;
+    margin: 180px auto;
+    }
+
+    .projects-box img {
+        margin: 0;
+        width: 50%;
+    }
+
+    .projects-box1 {
+        width: 100%;
+    }
+/*
+    .slider2 {
+        display: none;           /* ДОДЕЛАТЬ!!! 
+    }
+*/
+
+    .questions-box {
+        width: 100%;
+    }
+
+    .questions-box1 {
+        flex-wrap: wrap;
+        display: block;
+        width: 100%;
+    }
+
+    .questions-box1 input {
+        margin-left: 10px;
+    }
+
+    .questions-box2 input {
+        padding: 15px 0 113px 25px;
+        width: 80%;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+    .social {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .questions-box2 {
+        display: block;
+    }
+
+    .questions-box3 {
+        display: block;
+        width: 100%;
+    }
+
+    .questions-box3 button {
+        margin: 20px auto;
+        width: 100%;
+    }
+
+    .questions-box2 {
+        width: 100%;
+    }
+
+    footer {
+        gap: 0;
+        display: block;
+    }
+
+    footer ul {
+        display: block;
+    }
+
+    .characteristics-slider img {
+        width: 100%;
+    }
+
+    .characteristics-slider p {
+        display: none;
+    }
+
+    .characteristics-box h3 {
+        width: 300px;
+    }
+    
+}
+
+@media screen and (max-width: 540px) {
+    .modal {
+        height: auto;
+    }
+    
+    .modal h3 {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    
+/*
+    .slider-box {
+        transform: scale(0.7);
+        width: 100%;
+    }*/
+
+    .slider p {
+        padding: 20px 22px;
+        left:0
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .card-box {
+        display: block;
+        width: 100%;
+        transform: scale(1);
+    }
+
+    .card-box-1 {
+        margin-bottom: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card-box-2 {
+        margin-bottom: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
