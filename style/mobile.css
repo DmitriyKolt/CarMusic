@@ -40,6 +40,9 @@
 }
 
 @media screen and (max-width: 820px) {
+    h1 {
+        margin-top: 80px;
+    }
 
     .characteristics {
         flex-direction: column;
@@ -201,6 +204,25 @@
         width: 300px;
     }
     
+}
+
+@media screen and (max-width: 670px) {
+    .header-info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .inf-dop-width {
+        margin-bottom: 23px;
+    }
+
+    .header-box button {
+        margin-bottom: 70%;
+    }
+
+    .header-info-box {
+        border: 1px solid #898989;
+    }
 }
 
 @media screen and (max-width: 540px) {

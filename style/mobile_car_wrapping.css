@@ -64,6 +64,7 @@
         flex-wrap: wrap;
         display: block;
         width: 100%;
+        margin-left: 10px;
     }
 
     .questions-box2 input {
@@ -79,6 +80,7 @@
 
     .questions-box2 {
         display: block;
+        margin-left: 10px;
     }
 
     .questions-box3 {
@@ -132,6 +134,24 @@
         overflow-y: hidden;
         white-space: nowrap;
     }
+
+    .table-price::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+    .table-price::-webkit-scrollbar-track {
+        background: #898989; 
+        border-radius: 4px;
+      }
+      
+    .table-price::-webkit-scrollbar-thumb {
+        background: #DB3138; 
+        border-radius: 5px;
+      }
+      
+    .table-price:-webkit-scrollbar-thumb:hover {
+        background: #DB3138; 
+      }
 
 }
 
