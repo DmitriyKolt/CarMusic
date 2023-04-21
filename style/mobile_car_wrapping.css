@@ -37,23 +37,7 @@
     h1 {
         width: 100%;
     }
-
-    .menu ul {
-        display: flex;
-        flex-wrap: nowrap;
-        gap: 40px;
-        flex-direction: column;
-        position: absolute;
-        list-style: none;
-        background-color: #1E1E1E;
-        border-radius: 10px;
-        padding: 40px 20px 40px 40px;
-        right: 3;
-    }
     
-    .menu-hidden {
-        display: none;
-    }
     
     nav ul {
         display: none;

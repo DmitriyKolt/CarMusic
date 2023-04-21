@@ -102,7 +102,22 @@ h1 {
 
 
 .menu {
-    display: none;
+    position: absolute;
+    background: #1E1E1E;
+    display: flex;
+    gap: 20px;
+    border-radius: 10px 0 0 10px;
+    flex-direction: column;
+    padding: 20px 20px 20px 40px;
+    right: 0;
+    transition: 1s;
+    top: 10%;
+    list-style: none;
+}
+
+.menu-hidden {
+    right: -260px;
+    transition: 1s;
 }
 
 .menu-btn {
@@ -111,6 +126,13 @@ h1 {
     height: 25px;
     border: none;
 }
+
+.menu-btn-hid {
+    background: url("../pic/close.png") no-repeat;
+    background-size: auto 25px;
+    background-position: center;
+}
+
 
 .def {
     max-width: 1296px;

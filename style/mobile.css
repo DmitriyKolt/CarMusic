@@ -40,30 +40,9 @@
 }
 
 @media screen and (max-width: 820px) {
-    .menu {
-        display: flex;
-        position: absolute;
-    }
 
     .characteristics {
         flex-direction: column;
-    }
-    
-    .menu ul {
-        display: flex;
-        flex-wrap: nowrap;
-        gap: 40px;
-        flex-direction: column;
-        position: absolute;
-        list-style: none;
-        background-color: #1E1E1E;
-        border-radius: 10px;
-        padding: 40px 15px 40px 40px;
-        left: 0;
-    }
-    
-    .menu-hidden {
-        display: none;
     }
     
     nav ul {
