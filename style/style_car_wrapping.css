@@ -16,6 +16,13 @@
 		url(../fonts/Reformagroteskmediumc.otf); 
 }
 
+
+html, body { 
+    position: relative;
+    max-width: 100%; 
+    overflow-x: hidden; 
+}
+
 body {
     margin: 0 auto;
     padding: 0;
