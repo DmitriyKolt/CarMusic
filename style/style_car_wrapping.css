@@ -126,6 +126,15 @@ h1 {
 .menu-hidden {
     right: 0;
     transition: right 1s;
+    position: absolute;
+    background: #1E1E1E;
+    display: flex;
+    gap: 20px;
+    border-radius: 10px 0 0 10px;
+    flex-direction: column;
+    padding: 20px 20px 20px 40px;
+    top: 1%;
+    list-style: none;
 }
 
 .menu-btn {
@@ -133,12 +142,17 @@ h1 {
     width: 50px;
     height: 25px;
     border: none;
+    background-size: auto 25px;
+    background-position: center;
 }
 
 .menu-btn-hid {
     background: url("../pic/close.png") no-repeat;
     background-size: auto 25px;
     background-position: center;
+    width: 50px;
+    height: 25px;
+    border: none;
 }
 
 
