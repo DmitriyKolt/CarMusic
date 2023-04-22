@@ -4,6 +4,7 @@ const preBtn = document.querySelectorAll('.slider-prev-btn');
 
 productContainers.forEach((item, i) => {
     let containerWidth = 442;
+    console.log(nxtBtn[i])
 
     nxtBtn[i].addEventListener('click', () => {
         item.scrollLeft += containerWidth;

@@ -105,10 +105,7 @@
     footer ul {
         display: block;
     }
-
-    .char-slide {
-        width: 100%;
-    }
+    
 
     h4 {
         width: 100%;
@@ -153,6 +150,36 @@
         background: #DB3138; 
       }
 
+      .characteristics-slider p {
+        display: none;
+    }
+
+    .characteristics-box h3 {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .characteristics-slider-box-wrapper {
+        width: 400px;
+    }
+
+    .characteristics-slider-box {
+        width: 400px;
+        gap: 236px;
+    }
+    
+}
+
+@media screen and (max-width: 440px) {
+    .characteristics-slider-box-wrapper {
+        width: 300px;
+    }
+
+    .characteristics-slider-box {
+        width: 300px;
+        gap: 336px;
+    }
 }
 
 @media screen and (max-width: 540px) {

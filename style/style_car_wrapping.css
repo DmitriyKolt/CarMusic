@@ -23,21 +23,6 @@ body {
     overflow-x: hidden;
 }
 
-
-body::-webkit-scrollbar {
-    width: 12px;               /* ширина всей полосы прокрутки */
-  }
-  
-  body::-webkit-scrollbar-track {
-    background: orange;        /* цвет зоны отслеживания */
-  }
-  
-  body::-webkit-scrollbar-thumb {
-    background-color: blue;    /* цвет бегунка */
-    border-radius: 20px;       /* округлось бегунка */
-    border: 3px solid orange;  /* отступ вокруг бегунка */
-  }
-
 header {
     background: url("../pic/back.png") ;
     max-width: 1920px;
@@ -125,14 +110,14 @@ h1 {
     border-radius: 10px 0 0 10px;
     flex-direction: column;
     padding: 20px 20px 20px 40px;
-    right: 0;
+    right: -260px;
     transition: 1s;
     top: 10%;
     list-style: none;
 }
 
 .menu-hidden {
-    right: -260px;
+    right: 0;
     transition: 1s;
 }
 
@@ -198,6 +183,22 @@ h4 {
     width: 160px;
 }
 
+
+.characteristics-box {
+    width: 636px;
+}
+
+.characteristics-slider {
+    margin-top: 150px;
+}
+
+.characteristics-slider-box {
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    width: 636px;
+    margin: 0 auto;
+}
 .btn-prev {
     width: 71px;
     height: 71px;
@@ -219,10 +220,24 @@ h4 {
     height: 71px;
     background-color: #1E1E1E;
     border: none;
-    background-image: url("../pic/left.png");
 }
 
 .char-next-btn {
+    width: 71px;
+    height: 71px;
+    background-color: #1E1E1E;
+    border: none;
+}
+
+.char-prev-btn2 {
+    width: 71px;
+    height: 71px;
+    background-color: #1E1E1E;
+    border: none;
+    background-image: url("../pic/left.png");
+}
+
+.char-next-btn2 {
     width: 71px;
     height: 71px;
     background-color: #1E1E1E;
@@ -250,16 +265,9 @@ h4 {
 }
 
 .char-slide {
-    z-index: 100;
-}
-
-.char-hidden {
-    display: none;
-}
-
-.slider {
+    z-index: 2;
+    position: relative;
     width: 636px;
-    margin-top: 50px;
 }
 
 h2 {

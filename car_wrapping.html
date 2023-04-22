@@ -7,9 +7,9 @@
     <title>Car Music</title>
     <link rel="stylesheet" href="style/style_car_wrapping.css">
     <link rel="stylesheet" href="style/mobile_car_wrapping.css">
-    <script src="script/sliding.js" defer></script>
     <script src="script/menu.js" defer></script>
     <script src="script/smooth-scrool.js" defer></script>
+    <script src="script/slider.js" defer></script>
     <script src="script/modal.js" defer></script>
 </head>
 <body>
@@ -21,7 +21,7 @@
                 <li><a href="#">Детейлинг автомобилей</a></li>
                 <li><a href="#gallery">Галерея работ</a></li>
             </ul>
-            <div class="menu menu-hidden">
+            <div class="menu">
                 <li><a href="index.html">Главная</a></li>
                 <li><a href="#">Оклейка автомобилей</a></li>
                 <li><a href="#">Детейлинг автомобилей</a></li>
@@ -64,15 +64,30 @@
             </div>
         </div>
         <div class="slider">
-            <img src="pic/car4.png" alt="машина" class="char-slide">
-            <img src="pic/car5.png" alt="машина" class="char-slide char-hidden">
-            <div class="char-buttons">
-                <button class="char-prev-btn"></button>
-                <p>Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit. Pellentesque auctor nibh 
-                    feugiat est. Consectetur lectus.
-                </p>
-                <button class="char-next-btn"></button>
+            <div class="characteristics-slider">
+                <div class="characteristics-slider-box">
+                    <div class="characteristics-slider-box-wrapper">
+                        <img src="pic/car4.png" alt="машина" class="char-slide">
+                    </div>
+                    <div class="characteristics-slider-box-wrapper">
+                        <img src="pic/car5.png" alt="машина" class="char-slide">
+                    </div>
+                    <div class="characteristics-slider-box-wrapper">
+                        <img src="pic/car4.png" alt="машина" class="char-slide">
+                    </div>
+                    <div class="characteristics-slider-box-wrapper">
+                        <img src="pic/car5.png" alt="машина" class="char-slide">
+                    </div>
+                </div>
+    
+                <div class="char-buttons">
+                    <button class="char-prev-btn"><img src="pic/left.png" alt="left"></button>
+                    <p>Lorem ipsum dolor sit amet, consectetur 
+                        adipiscing elit. Pellentesque auctor nibh 
+                        feugiat est. Consectetur lectus.
+                    </p>
+                    <button class="char-next-btn"><img src="pic/right.png" alt="right"></button> 
+                </div>
             </div>
         </div>
     </div>

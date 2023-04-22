@@ -395,9 +395,16 @@ h3 {
 }
 
 .characteristics-box {
-    width: 526px;
+    width: 636px;
 }
 
+.characteristics-slider-box {
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    width: 636px;
+    margin: 0 auto;
+}
 .btn-prev {
     width: 71px;
     height: 71px;
@@ -419,7 +426,6 @@ h3 {
     height: 71px;
     background-color: #1E1E1E;
     border: none;
-    background-image: url("../pic/left.png");
 }
 
 .char-next-btn {
@@ -427,7 +433,6 @@ h3 {
     height: 71px;
     background-color: #1E1E1E;
     border: none;
-    background-image: url("../pic/right.png");
 }
 
 .char-prev-btn2 {
@@ -467,6 +472,8 @@ h3 {
 
 .char-slide {
     z-index: 2;
+    position: relative;
+    width: 636px;
 }
 
 .char-hidden {
