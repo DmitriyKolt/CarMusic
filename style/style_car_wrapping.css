@@ -17,10 +17,17 @@
 }
 
 
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
 html, body { 
-    position: relative;
     max-width: 100%; 
-    overflow-x: hidden; 
 }
 
 body {
@@ -119,7 +126,7 @@ h1 {
     padding: 20px 20px 20px 40px;
     right: -260px;
     transition: right 1s;
-    top: 1%;
+    top: 15%;
     list-style: none;
 }
 
@@ -133,7 +140,7 @@ h1 {
     border-radius: 10px 0 0 10px;
     flex-direction: column;
     padding: 20px 20px 20px 40px;
-    top: 1%;
+    top: 15%;
     list-style: none;
 }
 

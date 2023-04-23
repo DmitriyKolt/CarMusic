@@ -16,8 +16,16 @@
 		url(../fonts/Reformagroteskmediumc.otf); 
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: transparent;
+}
+
 html, body { 
-    max-width: 100%; 
     overflow-x: hidden; 
 }
 
@@ -437,17 +445,21 @@ h3 {
 }
 
 .char-prev-btn {
-    width: 71px;
+    width: 80px;
     height: 71px;
     background-color: #1E1E1E;
     border: none;
+    display: flex;
+    justify-content: center;
 }
 
 .char-next-btn {
-    width: 71px;
+    width: 80px;
     height: 71px;
     background-color: #1E1E1E;
     border: none;
+    display: flex;
+    justify-content: center;
 }
 
 .char-prev-btn2 {
