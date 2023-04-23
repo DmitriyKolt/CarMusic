@@ -16,14 +16,7 @@
 		url(../fonts/Reformagroteskmediumc.otf); 
 }
 
-::-webkit-scrollbar {
-    width: 0px;
-    background: transparent;
-}
 
-::-webkit-scrollbar-thumb {
-    background: transparent;
-}
 
 html, body { 
     overflow-x: hidden; 
@@ -40,7 +33,6 @@ header {
     background: url("../pic/back.png") no-repeat;
     max-width: 1920px;
     margin: 0 auto;
-    overflow-x: hidden;
 }
 
 nav ul {

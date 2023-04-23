@@ -17,14 +17,7 @@
 }
 
 
-::-webkit-scrollbar {
-    width: 0px;
-    background: transparent;
-}
 
-::-webkit-scrollbar-thumb {
-    background: transparent;
-}
 
 html, body { 
     max-width: 100%; 
@@ -34,7 +27,7 @@ body {
     margin: 0 auto;
     padding: 0;
     background: #1E1E1E;
-    overflow-x: hidden;
+
 }
 
 header {
